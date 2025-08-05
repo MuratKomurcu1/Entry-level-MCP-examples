@@ -1,6 +1,6 @@
 🚀 MCP Examples: Beginner-Friendly Model Context Protocol Applications
 
-#📋 Table of Contents
+📋 Table of Contents
 
 Overview
 Examples
@@ -20,8 +20,11 @@ This repository showcases three practical MCP implementations that demonstrate h
 🌐 Network Ping Tool - Website reachability testing
 
 Each example is designed for beginners while maintaining professional code standards and architectural best practices.
+
 🔧 Examples
+
 1. 📧 Gmail MCP Server
+   
 Files: server.js, ui.py
 A full-featured email client built with MCP architecture:
 
@@ -39,7 +42,9 @@ app.post('/send', async (req, res) => {
         to, subject, message
     });
 });
+
 2. 📁 File System MCP
+
 Files: file_app_ui.py, file_appy.py
 Desktop file management through AI commands:
 
@@ -54,7 +59,9 @@ pythonagent = Agent(
     llm="ollama/llama3.2",
     tools=MCP("npx -y @modelcontextprotocol/server-filesystem C:/Users/slayer/Desktop/mcp")
 )
+
 3. 🌐 Ping MCP Tool
+
 Files: ping_app_ui.py, index.js
 Network connectivity testing with AI integration:
 
@@ -64,6 +71,7 @@ Cross-Platform: Windows/Unix ping commands
 Real-time Results: Live status monitoring
 
 ⚡ Quick Start
+
 bash# Clone the repository
 git clone https://github.com/MuratKomurcu1/Entry-level-MCP-examples.git
 cd Entry-level-MCP-examples
