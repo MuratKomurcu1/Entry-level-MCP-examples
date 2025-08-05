@@ -1,4 +1,4 @@
-🚀 #MCP Examples: Beginner-Friendly Model Context Protocol Applications
+🚀 # MCP Examples: Beginner-Friendly Model Context Protocol Applications
 
 
 🎯 Overview
