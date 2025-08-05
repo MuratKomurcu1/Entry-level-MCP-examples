@@ -1,16 +1,5 @@
-🚀 MCP Examples: Beginner-Friendly Model Context Protocol Applications
+🚀 #MCP Examples: Beginner-Friendly Model Context Protocol Applications
 
-📋 Table of Contents
-
-Overview
-Examples
-Quick Start
-Prerequisites
-Installation
-Usage
-Architecture
-Contributing
-License
 
 🎯 Overview
 This repository showcases three practical MCP implementations that demonstrate how to integrate AI agents with real-world systems:
