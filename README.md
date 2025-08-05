@@ -1,4 +1,4 @@
-#🚀 MCP Examples: Beginner-Friendly Model Context Protocol Applications
+🚀 MCP Examples: Beginner-Friendly Model Context Protocol Applications
 
 #📋 Table of Contents
 
@@ -12,7 +12,7 @@ Architecture
 Contributing
 License
 
-#🎯 Overview
+🎯 Overview
 This repository showcases three practical MCP implementations that demonstrate how to integrate AI agents with real-world systems:
 
 📧 Gmail Integration - Email management with SMTP/IMAP
@@ -20,8 +20,8 @@ This repository showcases three practical MCP implementations that demonstrate h
 🌐 Network Ping Tool - Website reachability testing
 
 Each example is designed for beginners while maintaining professional code standards and architectural best practices.
-#🔧 Examples
-#1. 📧 Gmail MCP Server
+🔧 Examples
+1. 📧 Gmail MCP Server
 Files: server.js, ui.py
 A full-featured email client built with MCP architecture:
 
