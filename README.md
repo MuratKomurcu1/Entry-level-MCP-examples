@@ -1,4 +1,4 @@
-🚀 # MCP Examples: Beginner-Friendly Model Context Protocol Applications
+🚀 MCP Examples: Beginner-Friendly Model Context Protocol Applications
 
 
 🎯 Overview
@@ -65,19 +65,20 @@ bash# Clone the repository
 git clone https://github.com/MuratKomurcu1/Entry-level-MCP-examples.git
 cd Entry-level-MCP-examples
 
-# Install dependencies
+ Install dependencies
 npm install
 pip install -r requirements.txt
 
-# Run Gmail example
+ Run Gmail example
 node server.js &
 python ui.py
 
-# Run File System example  
+ Run File System example  
 python file_app_ui.py
 
-# Run Ping example
+ Run Ping example
 python ping_app_ui.py
+
 📋 Prerequisites
 Software Requirements
 
@@ -90,11 +91,12 @@ bash# Install Ollama
 curl -fsSL https://ollama.ai/install.sh | sh
 ollama pull llama3.2
 
-# Install Python packages
+ Install Python packages
 pip install praisonaiagents gradio requests
 
-# Install Node.js packages
+ Install Node.js packages
 npm install express cors nodemailer imap mailparser dotenv
+
 🛠 Installation
 1. Environment Setup
 Create .env file for Gmail integration:
@@ -112,30 +114,32 @@ Ensure proper file system permissions:
 bash# Windows
 icacls "C:\Users\slayer\Desktop" /grant:r %USERNAME%:F
 
-# macOS/Linux  
+ macOS/Linux  
 chmod 755 ~/Desktop
 🚀 Usage
 Gmail Integration
 bash# Start backend server
 node server.js
 
-# Launch web interface
+ Launch web interface
 python ui.py
 
-# Access at http://localhost:7860
+ Access at http://localhost:7860
 File System Manager
 bash# Interactive mode
 python file_app_ui.py
 
-# Direct command execution
+ Direct command execution
 python file_appy.py
 Network Ping Tool
 bash# Web interface
 python ping_app_ui.py
 
-# Direct ping test
+ Direct ping test
 node index.js
+
 🏗 Architecture
+
 MCP Design Pattern
 mermaidgraph TB
     A[AI Agent] --> B[MCP Client]
@@ -173,15 +177,15 @@ Common Issues
 Gmail Authentication Failed
 bash# Verify credentials
 echo $GMAIL_USER
-# Regenerate App Password if needed
+ Regenerate App Password if needed
 File Permission Denied
 bash# Check directory permissions
 ls -la ~/Desktop
-# Adjust permissions if necessary
+ Adjust permissions if necessary
 Ollama Model Not Found
 bash# Pull required model
 ollama pull llama3.2
-# Verify installation
+ Verify installation
 ollama list
 📚 Resources
 
